@@ -1,0 +1,2545 @@
+* {
+    margin: 0px;
+    font-family: 'Muli', sans-serif;
+}
+body {
+    overflow-x:hidden;
+       }
+    a {
+        text-decoration: none;
+    }
+.menu {
+    float: right;
+    margin-right: 100px;
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+}
+
+/*las listas del menu o contenido*/
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    padding: 30.5px 0px 0px 30px;
+}
+
+ul li a {
+    color: black;
+}
+
+a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu li:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px #d1392c;
+    transform: scaleX(0);
+    transition: transform 370ms ease-in-out;
+}
+
+.menu li:hover:after {
+    transform: scaleX(2);
+}
+
+.izquierda,
+.derecha {
+    height: 0px;
+}
+
+.logo-p {
+    position: relative;
+    width: 487px;
+    height: 390px;
+    top: 163px;
+    left: 230px;
+    animation: down 1s ease;
+}
+
+.logo-p2 {
+    display: none;
+}
+
+@keyframes right {
+    0% {
+        opacity: 0;
+        transform: translateX(80px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes down {
+    0% {
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes left {
+    0% {
+        opacity: 0;
+        transform: translateX(-80px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.izquierda {
+    top: 0px;
+    background-color: white;
+    width: 400px;
+    height: 750px;
+    float: left;
+}
+
+.derecha {
+    background-color: #eaeaea;
+    width: 100%;
+    margin-left: 610px;
+    border-bottom-left-radius: 100px;
+    height: 750px;
+}
+
+.img-salon {
+    margin-top: 70px;
+    margin-left: 180px;
+    width: 640px;
+    animation: right 1s ease;
+}
+
+.textobajo-logo {
+    font-family: 'Muli', sans-serif;
+    color: black;
+    font-size: 18px;
+    margin-left: 140px;
+    float: left;
+    animation: left 1s ease;
+}
+
+.history {
+    width: 330px;
+    height: 115px;
+}
+
+.imagen-h {
+    margin-top: -60px;
+    margin-left: 870px;
+    width: 450px;
+}
+
+.container3,
+.container2,
+.container1 {
+    height: 800px;
+}
+
+.img-ofrecemos {
+    margin-top: -80px;
+    width: 500px;
+}
+
+.cortes-redondos {
+    margin-top: -70px;
+    width: 850px;
+}
+
+.texto-h1 {
+    position: absolute;
+    margin-top: 1070px;
+    font-size: 25px;
+    top: 70px;
+    left: 320px;
+    float: left;
+}
+
+.texto-h2 {
+    color: #a38978;
+    position: absolute;
+    margin-top: 1100px;
+    font-size: 45px;
+    top: 105px;
+    left: 510px;
+    float: left;
+}
+
+.texto-h3 {
+    color: black;
+    position: absolute;
+    margin-top: 1100px;
+    font-size: 15px;
+    top: 195px;
+    left: 320px;
+    float: left;
+}
+
+.textos-img {
+    color: black;
+    position: absolute;
+    font-size: 16px;
+    left: 350px;
+}
+
+.subtexto1 {
+    color: black;
+    position: absolute;
+    font-size: 13px;
+    left: 350px;
+}
+
+.textos-img2 {
+    color: black;
+    position: absolute;
+    font-size: 16px;
+    left: 640px;
+}
+
+.subtexto2 {
+    color: black;
+    position: absolute;
+    font-size: 13px;
+    left: 590px;
+}
+
+.textos-img3 {
+    color: black;
+    position: absolute;
+    font-size: 16px;
+    left: 840px;
+}
+
+.subtexto3 {
+    color: black;
+    position: absolute;
+    font-size: 13px;
+    left: 798px;
+}
+
+.textos-img4 {
+    color: black;
+    position: absolute;
+    margin-top: 2215px;
+    font-size: 16px;
+    top: 04px;
+    left: 1014px;
+}
+
+.subtexto4 {
+    color: black;
+    position: absolute;
+    font-size: 13px;
+    left: 1007px;
+}
+
+.jonas {
+    margin-top: -60px;
+    margin-left: 390px;
+    width: 300px;
+}
+
+.eljefeimg {
+    margin-top: -100px;
+    width: 300px;
+}
+
+.eljefe-text1 {
+    color: black;
+    position: absolute;
+    top: 2800px;
+    font-size: 19px;
+    left: 770px;
+}
+
+.eljefe-text2 {
+    color: black;
+    position: absolute;
+    top: 2870px;
+    font-size: 14px;
+    left: 770px;
+}
+
+.container4 {
+    background-color: #eaeaea;
+    width: 1528px;
+    height: 800px;
+}
+
+.container5 {
+    background-color: #eaeaea;
+    width: 1028px;
+    height: 800px;
+}
+
+.izquierda-pr {
+    background-color: white;
+}
+
+.derecha-pr {
+    background-color: black;
+}
+
+.container6 {
+    position: absolute;
+    background-color: white;
+
+    width: 1528px;
+    height: 800px;
+}
+
+.izquierda-pr {
+    top: 0px;
+    background-color: white;
+    width: 601px;
+    height: 800px;
+    float: left;
+    border-top-left-radius: 700px;
+}
+
+.derecha-pr {
+    background-color: #eaeaea;
+    width: 1536px;
+    height: 800px;
+}
+
+.chavo-rz {
+    margin-top: 227px;
+    width: 350px;
+}
+
+.pomadas {
+    position: absolute;
+    margin-top: -704px;
+    margin-left: 475px;
+    width: 260px;
+}
+
+.productos-lg {
+    width: 230px;
+    position: absolute;
+    margin-top: 79px;
+    margin-left: 390px;
+}
+
+.reuzel-lg {
+    width: 220px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 580px;
+}
+
+.zenzit-lg {
+    width: 150px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 245px;
+}
+
+.zenzit-producto {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 245px;
+    font-size: 20px;
+}
+
+.reuzel-producto {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 610px;
+    font-size: 20px;
+}
+
+.location-atras {
+    margin-top: 182px;
+    width: 900px;
+}
+
+.mapa {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 600px;
+}
+
+.location-lg {
+    width: 250px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 350px;
+}
+
+.container7 {
+    position: absolute;
+    margin-top: 810px;
+    width: 1528px;
+    background-color: black;
+    padding: 40px;
+}
+
+.copyright {
+    color: white;
+    font-size: 20px;
+    margin-left: 520px;
+}
+
+.copyright-dv {
+    color: white;
+    font-size: 12px;
+    margin-left: 589px;
+}
+
+.copy-contact {
+    color: white;
+    font-size: 12px;
+    margin-left: 655px;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 1410px) and (min-width:1298px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .textos-img {
+        color: black;
+        position: absolute;
+        font-size: 16px;
+        margin-left: -110px;
+    }
+
+    .logo-p2 {
+        display: none;
+    }
+
+    .img-salon {
+        width: 550px;
+        margin-top: 90px;
+        margin-left: 110px;
+    }
+
+    .subtexto1 {
+        color: black;
+        position: absolute;
+        font-size: 13px;
+        margin-left: -110px;
+    }
+
+    .textos-img2 {
+        color: black;
+        position: absolute;
+        font-size: 16px;
+        margin-left: -110px;
+    }
+
+    .subtexto2 {
+        color: black;
+        position: absolute;
+        font-size: 13px;
+        margin-left: -110px;
+    }
+
+    .textos-img3 {
+        color: black;
+        position: absolute;
+        font-size: 16px;
+        margin-left: -110px;
+    }
+
+    .subtexto3 {
+        color: black;
+        position: absolute;
+        font-size: 13px;
+        margin-left: -110px;
+    }
+
+    .textos-img4 {
+        color: black;
+        position: absolute;
+        font-size: 16px;
+        top: 04px;
+        margin-top: 2226px;
+        margin-left: -110px;
+    }
+
+    .subtexto4 {
+        color: black;
+        position: absolute;
+        font-size: 13px;
+        margin-left: -110px;
+    }
+
+    .texto-h1 {
+        margin-left: -100px;
+        margin-top: 1100px;
+    }
+
+    .texto-h2 {
+        margin-top: 1100px;
+        margin-left: -100px;
+    }
+
+    .texto-h3 {
+        margin-top: 1100px;
+        margin-left: -100px;
+    }
+
+    .imagen-h {
+        width: 450px;
+        margin-left: 700px;
+        margin-top: -50px;
+    }
+
+    .eljefeimg {
+        margin-left: -190px;
+    }
+
+    .jonas {
+        margin-left: 250px;
+        margin-top: -30px;
+    }
+
+    .eljefe-text1 {
+        margin-left: -120px;
+    }
+
+    .eljefe-text2 {
+        margin-left: -120px;
+    }
+
+    .chavo-rz {
+        width: 300px;
+        margin-top: 335px;
+    }
+
+    .pomadas {
+        display: none;
+    }
+
+    .productos-lg {
+        margin-left: 250px;
+    }
+
+    .zenzit-lg {
+        margin-left: 150px;
+    }
+
+    .reuzel-lg {
+        margin-left: 400px;
+    }
+
+    .zenzit-producto {
+        margin-left: 150px;
+    }
+
+    .reuzel-producto {
+        margin-left: 430px;
+    }
+
+    .location-lg {
+        margin-left: 200px;
+    }
+
+    .location-atras {
+        margin-left: -230px;
+    }
+
+    .mapa {
+        margin-left: 450px;
+    }
+
+    .copyright {
+        margin-left: 400px;
+    }
+
+    .copyright-dv {
+        margin-left: 470px;
+    }
+
+    .copy-contact {
+        margin-left: 540px;
+    }
+}
+
+/* 
+*/
+
+@media screen and (max-width: 1297px) and (min-width:1199px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .textos-img {
+        color: black;
+        position: absolute;
+        font-size: 16px;
+        margin-left: -160px;
+    }
+
+    .logo-p2 {
+        display: none;
+    }
+
+    .img-salon {
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 125px;
+        width: 500px;
+    }
+
+    .subtexto1 {
+        color: black;
+        position: absolute;
+        font-size: 13px;
+        margin-left: -160px;
+    }
+
+    .textos-img2 {
+        color: black;
+        position: absolute;
+        font-size: 16px;
+        margin-left: -160px;
+    }
+
+    .subtexto2 {
+        color: black;
+        position: absolute;
+        font-size: 13px;
+        margin-left: -160px;
+    }
+
+    .textos-img3 {
+        color: black;
+        position: absolute;
+        font-size: 16px;
+        margin-left: -160px;
+    }
+
+    .cortes-redondos {
+        margin-left: -0px;
+    }
+
+    .subtexto3 {
+        color: black;
+        position: absolute;
+        font-size: 13px;
+        margin-left: -160px;
+    }
+
+    .textos-img4 {
+        color: black;
+        position: absolute;
+        font-size: 16px;
+        top: 04px;
+        margin-top: 2346px;
+        margin-left: -160px;
+    }
+
+    .subtexto4 {
+        color: black;
+        position: absolute;
+        font-size: 13px;
+        margin-left: -160px;
+    }
+
+    .texto-h1 {
+        margin-top: 1160px;
+        margin-left: -150px;
+    }
+
+    .texto-h2 {
+        margin-top: 1160px;
+        margin-left: -150px;
+    }
+
+    .texto-h3 {
+        margin-top: 1160px;
+        margin-left: -150px;
+    }
+
+    .imagen-h {
+        margin-left: 650px;
+        margin-top: 20px;
+    }
+
+    .eljefeimg {
+        margin-left: -267px;
+    }
+
+    .jonas {
+        margin-left: 250px;
+        margin-top: -30px;
+    }
+
+    .eljefe-text1 {
+        margin-top: 120px;
+        margin-left: -160px;
+    }
+
+    .eljefe-text2 {
+        margin-top: 130px;
+        margin-left: -160px;
+    }
+
+    .chavo-rz {
+        width: 370px;
+        margin-top: 200px;
+    }
+
+    .pomadas {
+        display: none;
+    }
+
+    .productos-lg {
+        margin-left: 300px;
+    }
+
+    .zenzit-lg {
+        margin-left: 200px;
+    }
+
+    .reuzel-lg {
+        margin-left: 430px;
+    }
+
+    .zenzit-producto {
+        margin-left: 230px;
+    }
+
+    .reuzel-producto {
+        margin-left: 470px;
+    }
+
+    .izquierda-pr {
+        top: 0px;
+        background-color: white;
+        width: 410px;
+        height: 800px;
+        float: left;
+    }
+
+    .derecha-pr {
+        background-color: #eaeaea;
+        width: 1536px;
+        height: 800px;
+    }
+
+    .location-lg {
+        margin-left: 200px;
+    }
+
+    .location-atras {
+        margin-left: -300px;
+    }
+
+    .mapa {
+        margin-left: 450px;
+    }
+
+    .copyright {
+        margin-left: 350px;
+    }
+
+    .copyright-dv {
+        margin-left: 425px;
+    }
+
+    .copy-contact {
+        margin-left: 490px;
+    }
+}
+
+/* 
+*/
+
+@media screen and (max-width: 1199px) and (min-width:1000px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .menu {
+        float: right;
+        margin-right: 30px;
+        font-family: 'Muli', sans-serif;
+        font-size: 15px;
+    }
+
+    .logo-p2 {
+        display: none;
+    }
+
+    .img-salon {
+        display: none;
+    }
+
+    .textos-img {
+        color: black;
+        position: absolute;
+        font-size: 16px;
+        margin-left: -260px;
+    }
+
+    .subtexto1 {
+        color: black;
+        position: absolute;
+        font-size: 13px;
+        margin-left: -260px;
+    }
+
+    .textos-img2 {
+        color: black;
+        position: absolute;
+        font-size: 16px;
+        margin-left: -260px;
+    }
+
+    .subtexto2 {
+        color: black;
+        position: absolute;
+        font-size: 13px;
+        margin-left: -260px;
+    }
+
+    .textos-img3 {
+        color: black;
+        position: absolute;
+        font-size: 16px;
+        margin-left: -260px;
+    }
+
+    .subtexto3 {
+        color: black;
+        position: absolute;
+        font-size: 13px;
+        margin-left: -260px;
+    }
+
+    .textos-img4 {
+        margin-top: 2328px;
+        color: black;
+        position: absolute;
+        font-size: 16px;
+        top: 04px;
+        margin-left: -260px;
+    }
+
+    .subtexto4 {
+        color: black;
+        position: absolute;
+        font-size: 13px;
+        margin-left: -260px;
+    }
+
+    .texto-h1 {
+        margin-top: 1160px;
+        margin-left: -200px;
+    }
+
+    .texto-h2 {
+        margin-top: 1160px;
+        margin-left: -250px;
+    }
+
+    .texto-h3 {
+        margin-top: 1160px;
+        margin-left: -250px;
+    }
+
+    .imagen-h {
+        width: 400px;
+        margin-left: 560px;
+        margin-top: 15px;
+    }
+
+    .eljefeimg {
+        margin-left: -469px;
+    }
+
+    .jonas {
+        margin-left: 100px;
+        margin-top: -40px;
+    }
+
+    .eljefe-text1 {
+        margin-left: -340px;
+    }
+
+    .eljefe-text2 {
+        margin-left: -340px;
+    }
+
+    .chavo-rz {
+        width: 300px;
+        margin-top: 335px;
+    }
+
+    .pomadas {
+        display: none;
+    }
+
+    .productos-lg {
+        margin-left: 200px;
+    }
+
+    .zenzit-lg {
+        margin-left: 100px;
+    }
+
+    .reuzel-lg {
+        margin-left: 330px;
+    }
+
+    .zenzit-producto {
+        margin-left: 130px;
+    }
+
+    .reuzel-producto {
+        margin-left: 370px;
+    }
+
+    .izquierda-pr {
+        top: 0px;
+        background-color: white;
+        width: 410px;
+        height: 800px;
+        float: left;
+    }
+
+    .derecha-pr {
+        background-color: #eaeaea;
+        width: 1536px;
+        height: 800px;
+    }
+
+    .location-lg {
+        margin-left: 100px;
+    }
+
+    .location-atras {
+        margin-left: -530px;
+    }
+
+    .mapa {
+        margin-left: 280px;
+    }
+
+    .copyright {
+        margin-left: 250px;
+    }
+
+    .copyright-dv {
+        margin-left: 320px;
+    }
+
+    .copy-contact {
+        margin-left: 380px;
+    }
+}
+
+/* 
+*/
+@media screen and (max-width: 1000px) and (min-width:900px) {
+    .logo-p2 {
+        display: none;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .menu {
+        float: right;
+        margin-right: 30px;
+        font-family: 'Muli', sans-serif;
+        font-size: 15px;
+    }
+
+    .logo-p {
+        margin-left: -92px;
+    }
+
+    .img-salon {
+        display: none;
+    }
+
+    .cortes-redondos {
+        margin-left: -20px;
+        width: 660px;
+    }
+
+    .textos-img {
+        color: black;
+        position: absolute;
+        font-size: 12px;
+        margin-left: -225px;
+    }
+
+    .subtexto1 {
+        color: black;
+        position: absolute;
+        font-size: 12px;
+        margin-left: -240px;
+    }
+
+    .textos-img2 {
+        color: black;
+        position: absolute;
+        font-size: 12px;
+        margin-left: -215px;
+    }
+
+    .subtexto2 {
+        color: black;
+        position: absolute;
+        font-size: 12px;
+        margin-left: -210px;
+    }
+
+    .textos-img3 {
+        color: black;
+        position: absolute;
+        font-size: 12px;
+        margin-left: -172px;
+    }
+
+    .subtexto3 {
+        color: black;
+        position: absolute;
+        font-size: 12px;
+        margin-left: -175px;
+    }
+
+    .textos-img4 {
+        display: none;
+    }
+
+    .subtexto4 {
+        display: none;
+    }
+
+    .texto-h1 {
+        margin-top: 1210px;
+        margin-left: -210px;
+        font-size: 25px;
+    }
+
+    .texto-h2 {
+        margin-top: 1210px;
+        margin-left: -280px;
+        font-size: 37px;
+    }
+
+    .texto-h3 {
+        margin-top: 1210px;
+        margin-left: -250px;
+        font-size: 13px;
+    }
+
+    .imagen-h {
+        margin-left: 495px;
+        margin-top: 50px;
+        width: 330px;
+    }
+
+    .logo-p {}
+
+    .textobajo-logo {
+        margin-top: 5px;
+        position: absolute;
+    }
+
+    .eljefeimg {
+        margin-left: -600px;
+    }
+
+    .jonas {
+        margin-left: 95px;
+        margin-top: -60px;
+    }
+
+    .eljefe-text1 {
+        margin-top: 50px;
+        margin-left: -350px;
+        font-size: 17px;
+    }
+
+    .eljefe-text2 {
+        margin-top: 80px;
+        margin-left: -350px;
+        font-size: 12px;
+    }
+
+    .chavo-rz {
+        width: 300px;
+        margin-top: 335px;
+    }
+
+    .pomadas {
+        display: none;
+    }
+
+    .productos-lg {
+        margin-left: 260px;
+    }
+
+    .zenzit-lg {
+        margin-left: 200px;
+    }
+
+    .reuzel-lg {
+        margin-left: 360px;
+    }
+
+    .zenzit-producto {
+        margin-left: 200px;
+        font-size: 16px;
+    }
+
+    .reuzel-producto {
+        margin-left: 410px;
+        font-size: 15px;
+    }
+
+    .izquierda-pr {
+        background-color: white;
+        width: 180px;
+        height: 800px;
+        float: left;
+    }
+
+    .derecha-pr {
+        background-color: #eaeaea;
+        width: 1436px;
+        height: 800px;
+    }
+
+    .izquierda {
+        background-color: white;
+        width: 320px;
+        height: 800px;
+        float: left;
+    }
+
+    .derecha {
+        background-color: #eaeaea;
+        width: 1436px;
+        height: 800px;
+    }
+
+    .location-lg {
+        width: 250px;
+        margin-left: 100px;
+    }
+
+    .location-atras {
+        width: 700px;
+        margin-top: 200px;
+        margin-left: -630px;
+    }
+
+    .mapa {
+        margin-top: -370px;
+        margin-left: 280px;
+        width: 400px;
+        height: 300px;
+    }
+
+    .copyright {
+        margin-left: 180px;
+    }
+
+    .copyright-dv {
+        margin-left: 250px;
+    }
+
+    .copy-contact {
+        margin-left: 320px;
+    }
+}
+
+/* 
+*/
+@media screen and (max-width: 900px) and (min-width:800px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .menu {
+        float: right;
+        margin-right: 30px;
+        font-family: 'Muli', sans-serif;
+        font-size: 15px;
+    }
+
+    .logo-p2 {
+        display: none;
+    }
+
+    .logo-p {
+        margin-left: -92px;
+        margin-top: -30px;
+        width: 510px;
+        height: 450px;
+    }
+
+    .textobajo-logo {
+        position: absolute;
+    }
+
+    .img-salon {
+        display: none;
+    }
+
+    .cortes-redondos {
+        width: 660px;
+    }
+
+    .textos-img {
+        color: black;
+        position: absolute;
+        font-size: 12px;
+        margin-left: -260px;
+    }
+
+    .subtexto1 {
+        color: black;
+        position: absolute;
+        font-size: 12px;
+        margin-left: -280px;
+    }
+
+    .textos-img2 {
+        color: black;
+        position: absolute;
+        font-size: 12px;
+        margin-left: -250px;
+    }
+
+    .subtexto2 {
+        color: black;
+        position: absolute;
+        font-size: 12px;
+        margin-left: -250px;
+    }
+
+    .textos-img3 {
+        color: black;
+        position: absolute;
+        font-size: 12px;
+        margin-left: -209px;
+    }
+
+    .subtexto3 {
+        color: black;
+        position: absolute;
+        font-size: 12px;
+        margin-left: -210px;
+    }
+
+    .textos-img4 {
+        display: none;
+    }
+
+    .subtexto4 {
+        display: none;
+    }
+
+    .texto-h1 {
+        margin-left: -250px;
+        margin-top: 1110px;
+        font-size: 20px;
+    }
+
+    .texto-h2 {
+        margin-left: -350px;
+        font-size: 35px;
+    }
+
+    .texto-h3 {
+        margin-left: -250px;
+        font-size: 13px;
+    }
+
+    .imagen-h {
+        margin-left: 480px;
+        margin-top: -50px;
+        width: 290px;
+    }
+
+    .eljefeimg {
+        margin-left: -700px;
+    }
+
+    .jonas {
+        margin-left: 20px;
+        margin-top: -60px;
+    }
+
+    .eljefe-text1 {
+        margin-top: -90px;
+        margin-left: -430px;
+        font-size: 17px;
+    }
+
+    .eljefe-text2 {
+        margin-top: -90px;
+        margin-left: -432px;
+        font-size: 12px;
+    }
+
+    .chavo-rz {
+        width: 300px;
+        margin-top: 335px;
+    }
+
+    .pomadas {
+        display: none;
+    }
+
+    .productos-lg {
+        margin-left: 190px;
+    }
+
+    .zenzit-lg {
+        margin-left: 130px;
+    }
+
+    .reuzel-lg {
+        margin-left: 280px;
+    }
+
+    .zenzit-producto {
+        margin-left: 145px;
+        font-size: 16px;
+    }
+
+    .reuzel-producto {
+        margin-left: 330px;
+        font-size: 15px;
+    }
+
+    .izquierda-pr {
+        background-color: white;
+        width: 180px;
+        height: 800px;
+        float: left;
+    }
+
+    .derecha-pr {
+        background-color: #eaeaea;
+        width: 1436px;
+        height: 800px;
+    }
+
+    .izquierda {
+        background-color: white;
+        width: 0px;
+        height: 800px;
+        float: left;
+    }
+
+    .derecha {
+        background-color: #eaeaea;
+        width: 199px;
+        height: 800px;
+    }
+
+    .location-lg {
+        width: 200px;
+        margin-left: 100px;
+    }
+
+    .location-atras {
+        width: 700px;
+        margin-top: 200px;
+        margin-left: -730px;
+    }
+
+    .mapa {
+        margin-top: -340px;
+        margin-left: 230px;
+        width: 290px;
+        height: 200px;
+    }
+
+    .copyright {
+        margin-left: 150px;
+    }
+
+    .copyright-dv {
+        margin-left: 220px;
+    }
+
+    .copy-contact {
+        margin-left: 280px;
+    }
+}
+
+/* 
+*/
+@media screen and (max-width: 800px) and (min-width:600px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .menu {
+        float: right;
+        margin-right: 30px;
+        font-family: 'Muli', sans-serif;
+        font-size: 15px;
+    }
+
+    .logo-p2 {
+        display: none;
+    }
+
+    .logo-p {
+        margin-left: -160px;
+    }
+
+    .textobajo-logo {
+        position: absolute;
+        margin-left: 60px;
+        font-size: 18px;
+        float: left;
+    }
+
+    .img-salon {
+        display: none;
+    }
+
+    .cortes-redondos {
+        margin-top: -100px;
+        width: 560px;
+    }
+
+    .textos-img {
+        display: none;
+    }
+
+    .subtexto1 {
+        display: none;
+    }
+
+    .textos-img2 {
+        color: black;
+        position: absolute;
+        font-size: 20px;
+        margin-left: -500px;
+    }
+
+    .subtexto2 {
+        color: black;
+        position: absolute;
+        font-size: 15px;
+        margin-left: -500px;
+    }
+
+    .textos-img3 {
+        color: black;
+        position: absolute;
+        font-size: 20px;
+        margin-left: -470px;
+    }
+
+    .subtexto3 {
+        color: black;
+        position: absolute;
+        font-size: 15px;
+        margin-left: -470px;
+    }
+
+    .textos-img4 {
+        display: none;
+    }
+
+    .subtexto4 {
+        display: none;
+    }
+
+    .img-ofrecemos {
+        margin-top: 120px;
+    }
+
+    .texto-h1 {
+        margin-left: -250px;
+        margin-top: 1275px;
+        font-size: 23px;
+    }
+
+    .texto-h2 {
+        margin-left: -270px;
+        margin-top: 1275px;
+        font-size: 35px;
+    }
+
+    .texto-h3 {
+        margin-left: -230px;
+        margin-top: 1258px;
+        font-size: 13px;
+    }
+
+    .imagen-h {
+        margin-left: 145px;
+        margin-top: -115px;
+        width: 290px;
+    }
+
+    .eljefeimg {
+        margin-left: -902px;
+    }
+
+    .jonas {
+        margin-left: 20px;
+        margin-top: -0px;
+        width: 250px;
+    }
+
+    .eljefe-text1 {
+        margin-top: -245px;
+        margin-left: -490px;
+        font-size: 17px;
+    }
+
+    .eljefe-text2 {
+        margin-top: -260px;
+        margin-left: -490px;
+        font-size: 12px;
+    }
+
+    .chavo-rz {
+        width: 270px;
+        margin-top: 360px;
+    }
+
+    .pomadas {
+        display: none;
+    }
+
+    .productos-lg {
+        margin-left: 90px;
+    }
+
+    .zenzit-lg {
+        margin-top: 360px;
+        margin-left: 130px;
+    }
+
+    .reuzel-lg {
+        margin-top: 500px;
+        margin-left: 95px;
+    }
+
+    .zenzit-producto {
+        display: none;
+    }
+
+    .reuzel-producto {
+        display: none;
+    }
+
+    .izquierda-pr {
+        background-color: white;
+        width: 180px;
+        height: 800px;
+        float: left;
+    }
+
+    .derecha-pr {
+        background-color: #eaeaea;
+        width: 1436px;
+        height: 800px;
+    }
+
+    .izquierda {
+        background-color: white;
+        width: 253px;
+        height: 800px;
+        float: left;
+    }
+
+    .derecha {
+        background-color: #eaeaea;
+        width: 1436px;
+        height: 800px;
+    }
+
+    .location-lg {
+        width: 250px;
+        margin-left: 180px;
+    }
+
+    .location-atras {
+        width: 550px;
+        margin-top: 340px;
+        margin-left: -950px;
+    }
+
+    .mapa {
+        margin-top: -310px;
+        margin-left: 150px;
+        width: 300px;
+        height: 250px;
+    }
+
+    .copyright {
+        margin-left: 50px;
+    }
+
+    .copyright-dv {
+        margin-left: 110px;
+    }
+
+    .copy-contact {
+        margin-left: 160px;
+    }
+}
+
+/* 
+*/
+@media screen and (max-width: 600px) and (min-width:500px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .menu {
+        float: right;
+        margin-right: 30px;
+        font-family: 'Muli', sans-serif;
+        font-size: 15px;
+    }
+
+    .logo-p2 {
+        display: none;
+    }
+
+    .logo-p {
+        margin-left: -230px;
+    }
+
+    .textobajo-logo {
+        position: absolute;
+        margin-left: 100px;
+        font-size: 18px;
+        float: left;
+    }
+
+    .img-salon {
+        display: none;
+    }
+
+    .cortes-redondos {
+        margin-top: -500px;
+        width: 460px;
+    }
+
+    .textos-img {
+        display: none;
+    }
+
+    .subtexto1 {
+        display: none;
+    }
+
+    .textos-img2 {
+        color: black;
+        position: absolute;
+        font-size: 19px;
+        margin-left: -540px;
+    }
+
+    .subtexto2 {
+        color: black;
+        position: absolute;
+        font-size: 15px;
+        margin-top: -30px;
+        margin-left: -550px;
+    }
+
+    .textos-img3 {
+        color: black;
+        position: absolute;
+        font-size: 19px;
+        margin-left: -510px;
+    }
+
+    .subtexto3 {
+        color: black;
+        position: absolute;
+        font-size: 15px;
+        margin-top: -30px;
+        margin-left: -510px;
+    }
+
+    .textos-img4 {
+        display: none;
+    }
+
+    .subtexto4 {
+        display: none;
+    }
+
+    .img-ofrecemos {
+        margin-top: 115px;
+    }
+
+    .texto-h1 {
+        margin-left: -220px;
+        margin-top: 1260px;
+        font-size: 25px;
+    }
+
+    .texto-h2 {
+        margin-left: -293px;
+        font-size: 38px;
+        margin-top: 1250px;
+    }
+
+    .texto-h3 {
+        margin-left: -293px;
+        font-size: 15px;
+        margin-top: 1250px;
+    }
+
+    .imagen-h {
+        margin-left: 125px;
+        margin-top: -90px;
+        width: 240px;
+    }
+
+    .eljefeimg {
+        margin-left: -1005px;
+    }
+
+    .jonas {
+        margin-left: 125px;
+        margin-top: -100px;
+        width: 270px;
+    }
+
+    .eljefe-text1 {
+        display: none;
+    }
+
+    .eljefe-text2 {
+        margin-top: -10px;
+        margin-left: -720px;
+        font-size: 13px;
+    }
+
+    .chavo-rz {
+        width: 270px;
+        margin-top: 360px;
+    }
+
+    .pomadas {
+        display: none;
+    }
+
+    .productos-lg {
+        margin-left: 50px;
+    }
+
+    .zenzit-lg {
+        margin-top: 360px;
+        margin-left: 95px;
+    }
+
+    .reuzel-lg {
+        margin-top: 500px;
+        margin-left: 58px;
+    }
+
+    .zenzit-producto {
+        display: none;
+    }
+
+    .reuzel-producto {
+        display: none;
+    }
+
+    .izquierda-pr {
+        background-color: white;
+        width: 180px;
+        height: 800px;
+        float: left;
+    }
+
+    .derecha-pr {
+        background-color: #eaeaea;
+        width: 1436px;
+        height: 800px;
+    }
+
+    .izquierda {
+        background-color: white;
+        width: 197px;
+        height: 800px;
+        float: left;
+    }
+
+    .derecha {
+        background-color: #eaeaea;
+        width: 1436px;
+        height: 800px;
+    }
+
+    .location-lg {
+        width: 250px;
+        margin-left: 130px;
+    }
+
+    .location-atras {
+        width: 480px;
+        margin-top: 340px;
+        margin-left: -1030px;
+    }
+
+    .mapa {
+        margin-top: -280px;
+        margin-left: 100px;
+        width: 300px;
+        height: 250px;
+    }
+
+    .copyright {
+        margin-left: 10px;
+        font-size: 18px;
+    }
+
+    .copyright-dv {
+        margin-left: 70px;
+        font-size: 11px;
+    }
+
+    .copy-contact {
+        margin-left: 120px;
+        font-size: 12px;
+    }
+}
+
+/* 
+*/
+@media screen and (max-width: 500px) and (min-width:450px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .menu {
+        float: right;
+        margin-right: 30px;
+        font-family: 'Muli', sans-serif;
+        font-size: 15px;
+    }
+
+    .logo-p2 {
+        display: none;
+    }
+
+    .logo-p {
+        margin-top: 50px;
+        margin-left: -210px;
+        width: 400px;
+        height: 350px;
+    }
+
+    .textobajo-logo {
+        margin-top: 70px;
+        position: absolute;
+        margin-left: 70px;
+        font-size: 15px;
+        float: left;
+    }
+
+    .img-salon {
+        display: none;
+    }
+
+    .cortes-redondos {
+        margin-top: -500px;
+        width: 450px;
+    }
+
+    .textos-img {
+        display: none;
+    }
+
+    .subtexto1 {
+        display: none;
+    }
+
+    .textos-img2 {
+        color: black;
+        position: absolute;
+        font-size: 18px;
+        margin-left: -560px;
+    }
+
+    .subtexto2 {
+        color: black;
+        position: absolute;
+        font-size: 14px;
+        margin-top: -30px;
+        margin-left: -560px;
+    }
+
+    .textos-img3 {
+        color: black;
+        position: absolute;
+        font-size: 18px;
+        margin-left: -560px;
+    }
+
+    .subtexto3 {
+        color: black;
+        position: absolute;
+        font-size: 14px;
+        margin-top: -30px;
+        margin-left: -565px;
+    }
+
+    .textos-img4 {
+        display: none;
+    }
+
+    .subtexto4 {
+        display: none;
+    }
+
+    .img-ofrecemos {
+        margin-top: 115px;
+        margin-left: -27px;
+    }
+
+    .texto-h1 {
+        margin-left: -280px;
+        margin-top: 1270px;
+        font-size: 25px;
+    }
+
+    .texto-h2 {
+        margin-left: -300px;
+        font-size: 38px;
+        margin-top: 1270px;
+    }
+
+    .texto-h3 {
+        margin-left: -306px;
+        font-size: 14px;
+        margin-top: 1250px;
+    }
+
+    .imagen-h {
+        margin-left: 85px;
+        margin-top: -120px;
+        width: 280px;
+    }
+
+    .eljefeimg {
+        margin-left: -1070px;
+    }
+
+    .jonas {
+        margin-left: 80px;
+        margin-top: -130px;
+        width: 270px;
+    }
+
+    .eljefe-text1 {
+        display: none;
+    }
+
+    .eljefe-text2 {
+        margin-top: -20px;
+        margin-left: -750px;
+        font-size: 13px;
+    }
+
+    .chavo-rz {
+        width: 250px;
+        margin-top: 400px;
+        margin-left: -40px;
+    }
+
+    .pomadas {
+        display: none;
+    }
+
+    .productos-lg {
+        width: 190px;
+        margin-left: 80px;
+    }
+
+    .zenzit-lg {
+        margin-top: 260px;
+        margin-left: 100px;
+    }
+
+    .reuzel-lg {
+        margin-top: 380px;
+        margin-left: 65px;
+    }
+
+    .zenzit-producto {
+        display: none;
+    }
+
+    .reuzel-producto {
+        display: none;
+    }
+
+    .izquierda-pr {
+        background-color: white;
+        width: 100px;
+        height: 800px;
+        float: left;
+    }
+
+    .derecha-pr {
+        background-color: #eaeaea;
+        width: 1436px;
+        height: 800px;
+    }
+
+    .izquierda {
+        background-color: white;
+        width: 40px;
+        height: 800px;
+        float: left;
+    }
+
+    .derecha {
+        background-color: white;
+        width: 394px;
+        height: 800px;
+    }
+
+    .location-lg {
+        width: 250px;
+        margin-left: 110px;
+    }
+
+    .location-atras {
+        width: 430px;
+        margin-top: 340px;
+        margin-left: -1075px;
+    }
+
+    .mapa {
+        margin-top: -235px;
+        margin-left: 120px;
+        width: 200px;
+        height: 150px;
+    }
+
+    .copyright {
+        margin-left: 0px;
+        font-size: 16px;
+    }
+
+    .copyright-dv {
+        margin-left: 30px;
+        font-size: 11px;
+    }
+
+    .copy-contact {
+        margin-left: 75px;
+        font-size: 12px;
+    }
+}
+
+/* 
+*/
+@media screen and (max-width: 450px) and (min-width:400px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .menu {
+        float: right;
+        margin-right: 30px;
+        font-family: 'Muli', sans-serif;
+        font-size: 15px;
+    }
+
+    .logo-p {
+        margin-top: 50px;
+        margin-left: -230px;
+        width: 400px;
+        height: 350px;
+    }
+
+    .textobajo-logo {
+        margin-top: 70px;
+        position: absolute;
+        margin-left: 70px;
+        font-size: 15px;
+        float: left;
+    }
+
+    .img-salon {
+        margin-left: -570px;
+        margin-top: 1850px;
+        width: 310px;
+    }
+
+    .cortes-redondos {
+        display: none;
+    }
+
+    .textos-img {
+        display: none;
+    }
+
+    .subtexto1 {
+        display: none;
+    }
+
+    .textos-img2 {
+        color: black;
+        position: absolute;
+        font-size: 25px;
+        margin-top: 90px;
+        margin-left: -465px;
+    }
+
+    .subtexto2 {
+        color: black;
+        position: absolute;
+        font-size: 15px;
+        margin-top: 70px;
+        margin-left: -470px;
+    }
+
+    .textos-img3 {
+        display: none;
+    }
+
+    .subtexto3 {
+        display: none;
+    }
+
+    .textos-img4 {
+        display: none;
+    }
+
+    .subtexto4 {
+        display: none;
+    }
+
+    .img-ofrecemos {
+        margin-top: 115px;
+        margin-left: -23px;
+        width: 450px;
+    }
+
+    .texto-h1 {
+        margin-left: -280px;
+        margin-top: 1270px;
+        font-size: 25px;
+    }
+
+    .texto-h2 {
+        margin-left: -300px;
+        font-size: 38px;
+        margin-top: 1270px;
+    }
+
+    .texto-h3 {
+        margin-left: -306px;
+        font-size: 14px;
+        margin-top: 1250px;
+    }
+
+    .imagen-h {
+        margin-left: 85px;
+        margin-top: -120px;
+        width: 280px;
+    }
+
+    .eljefeimg {
+        margin-left: -1105px;
+    }
+
+    .jonas {
+        margin-left: 80px;
+        margin-top: -120px;
+        width: 260px;
+    }
+
+    .eljefe-text1 {
+        display: none;
+    }
+
+    .eljefe-text2 {
+        margin-top: -20px;
+        margin-left: -750px;
+        font-size: 12px;
+    }
+
+    .chavo-rz {
+        width: 250px;
+        margin-top: 400px;
+        margin-left: -40px;
+    }
+
+    .pomadas {
+        display: none;
+    }
+
+    .productos-lg {
+        width: 190px;
+        margin-left: 80px;
+    }
+
+    .zenzit-lg {
+        margin-top: 260px;
+        margin-left: 100px;
+    }
+
+    .reuzel-lg {
+        margin-top: 380px;
+        margin-left: 65px;
+    }
+
+    .zenzit-producto {
+        display: none;
+    }
+
+    .reuzel-producto {
+        display: none;
+    }
+
+    .izquierda-pr {
+        background-color: white;
+        width: 100px;
+        height: 800px;
+        float: left;
+    }
+
+    .derecha-pr {
+        background-color: #eaeaea;
+        width: 1436px;
+        height: 800px;
+    }
+
+    .izquierda {
+        background-color: white;
+        width: 40px;
+        height: 800px;
+        float: left;
+    }
+
+    .derecha {
+        background-color: white;
+        width: 394px;
+        height: 800px;
+    }
+
+    .location-lg {
+        width: 250px;
+        margin-left: 80px;
+    }
+
+    .location-atras {
+        width: 430px;
+        margin-top: 340px;
+        margin-left: -1115px;
+    }
+
+    .mapa {
+        margin-top: -264px;
+        margin-left: 60px;
+        width: 300px;
+        height: 250px;
+    }
+
+    .copyright {
+        margin-left: -15px;
+        font-size: 16px;
+    }
+
+    .copyright-dv {
+        margin-left: 15px;
+        font-size: 11px;
+    }
+
+    .copy-contact {
+        margin-left: 69px;
+        font-size: 12px;
+    }
+}
+
+/* 
+*/
+/* 
+*/
+@media screen and (max-width: 400px) and (min-width:320px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .menu {
+        float: right;
+        margin-right: 57px;
+        margin-left: -60px;
+        font-family: 'Muli', sans-serif;
+        font-size: 15px;
+    }
+
+    .logo-p {
+        width: 1000%;
+        height: auto;
+        margin-top: 50px;
+        margin-left: -240px;
+    }
+
+    .textobajo-logo {
+        margin-top: 70px;
+        position: absolute;
+        margin-left: 30px;
+        font-size: 15px;
+        float: left;
+    }
+
+    .img-salon {
+        margin-left: -600px;
+        margin-top: 1825px;
+        width: 300px;
+    }
+
+    .cortes-redondos {
+        display: none;
+    }
+
+    .textos-img {
+        display: none;
+    }
+
+    .subtexto1 {
+        display: none;
+    }
+
+    .textos-img2 {
+        color: black;
+        position: absolute;
+        font-size: 25px;
+        margin-top: 120px;
+        margin-left: -620px;
+    }
+
+    .subtexto2 {
+        color: black;
+        position: absolute;
+        font-size: 15px;
+        margin-top: 70px;
+        margin-left: -460px;
+    }
+
+    .textos-img3 {
+        display: none;
+    }
+
+    .subtexto3 {
+        display: none;
+    }
+
+    .textos-img4 {
+        display: none;
+    }
+
+    .subtexto4 {
+        display: none;
+    }
+
+    .img-ofrecemos {
+        margin-top: 115px;
+        margin-left: -23px;
+        width: 370px;
+    }
+
+    .history {
+        width: 326px;
+    }
+
+    .texto-h1 {
+        margin-left: -300px;
+        margin-top: 1270px;
+        font-size: 23px;
+    }
+
+    .texto-h2 {
+        margin-left: -330px;
+        font-size: 36px;
+        margin-top: 1270px;
+    }
+
+    .texto-h3 {
+        margin-left: -306px;
+        font-size: 14px;
+        margin-top: 1250px;
+    }
+
+    .imagen-h {
+        margin-left: 35px;
+        margin-top: -120px;
+        width: 270px;
+    }
+
+    .eljefeimg {
+
+        margin-left: -1195px;
+    }
+
+    .jonas {
+        margin-left: 60px;
+        margin-top: -120px;
+        width: 230px;
+    }
+
+    .eljefe-text1 {
+        display: none;
+    }
+
+    .eljefe-text2 {
+        margin-top: -75px;
+        margin-left: -763px;
+        font-size: 11px;
+    }
+
+    .chavo-rz {
+        width: 230px;
+        margin-top: 440px;
+        margin-left: -50px;
+    }
+
+    .pomadas {
+        display: none;
+    }
+
+    .productos-lg {
+        width: 190px;
+        margin-left: 10px;
+    }
+
+    .zenzit-lg {
+        margin-top: 260px;
+        margin-left: 35px;
+    }
+
+    .reuzel-lg {
+        margin-top: 380px;
+        margin-left: 1px;
+    }
+
+    .zenzit-producto {
+        display: none;
+    }
+
+    .reuzel-producto {
+        display: none;
+    }
+
+    .izquierda-pr {
+        background-color: white;
+        width: 100px;
+        height: 800px;
+        float: left;
+    }
+
+    .derecha-pr {
+        background-color: #eaeaea;
+        width: 1436px;
+        height: 800px;
+    }
+
+    .izquierda {
+        background-color: white;
+        width: 40px;
+        height: 800px;
+        float: left;
+    }
+
+    .derecha {
+        background-color: white;
+        width: 394px;
+        height: 800px;
+    }
+
+    .location-lg {
+        width: 240px;
+        margin-left: 40px;
+    }
+
+    .location-atras {
+        width: 430px;
+        margin-top: 340px;
+        margin-left: -1115px;
+    }
+
+    .mapa {
+        margin-top: -264px;
+        margin-left: 10px;
+        width: 300px;
+        height: 250px;
+    }
+
+    .copyright {
+        margin-left: -25px;
+        font-size: 13px;
+    }
+
+    .copyright-dv {
+        margin-left: -30px;
+        font-size: 11px;
+    }
+
+    .copy-contact {
+        margin-left: 40px;
+        font-size: 11px;
+    }
+}
+
+/* 
+*/
+@media screen and (max-width: 384px) and (min-width:346px) {
+    .logo-p {
+        width: 900%;
+        height: auto;
+        margin-top: 50px;
+        margin-left: -240px;
+    }
+}
+
+@media screen and (max-width: 347px) and (min-width:335px) {
+    .logo-p {
+        width: 900%;
+        height: auto;
+        margin-top: 50px;
+        margin-left: -240px;
+    }
+}
+
+@media screen and (max-width: 335px) and (min-width:320px) {
+    .logo-p {
+        width: 850%;
+        height: auto;
+        margin-top: 50px;
+        margin-left: -240px;
+    }
+}
